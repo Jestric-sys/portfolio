@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="result"></div>
+            <input type="number" id="numberIn" value="0" onclick="main.clickNumberIn()">
+            <div id="numberBtn">
+                <button id="plus" onclick="calculator.plus()">+</button>
+                <button id="minus" onclick="calculator.minus()">-</button>
+                <button id="umno" onclick="calculator.umno()">*</button>
+                <button id="del" onclick="calculator.del()">/</button>
+                <button id="clear" onclick="calculator.clearC()">C</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

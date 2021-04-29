@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+#board {
+  position: relative;
+  width: 1024px;
+  height: 863px;
+  margin: auto;
+  background: url("../img/board.jpg") no-repeat;
+}
+table {
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border-spacing: 0px;
+}
+td {
+  width: 94px;
+  height: 94px;
+}
+#messageArea {
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  color: #53af13;
+  font-size: 40px;
+}
+#see {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  color: #53af13;
+  font-size: 30px;
+}
+#messageVersion {
+  position: absolute;
+  top: 800px;
+  left: 80px;
+  color: #53af13;
+  font-size: 30px;
+  border: 1px solid #98cf71;
+  background-color: #98cf71;
+  border-radius: 10px;
+}
+#messageVersion:hover {
+  background-color: #53af13;
+}
+#messageVersion:active {
+  background-color: #98cf71;
+}
+#linkVersion {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#formUse {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 15px;
+  background-color: #53af13;
+  border-radius: 10px;
+}
+#guessInput {
+  background-color: #98cf71;
+  border-color: #53af13;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  padding: 3px;
+  text-transform: uppercase;
+}
+#fireButton {
+  background-color: #98cf71;
+  border-color: #53af13;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  padding: 3px;
+}
+.hit {
+  background: url("../img/ship.png") no-repeat center center;
+}
+.ship_hit {
+  background: url("../img/ship_hit.png") no-repeat center center;
+}
+.miss {
+  background: url("../img/miss.png") no-repeat center center;
+}
+@media (max-width: 375px) {
+  body {
+    overflow: hidden;
+  }
+  #board {
+    width: 375px;
+    height: 590px;
+    margin: auto;
+    background: url(../img/min_board.jpg) no-repeat;
+  }
+  table {
+    position: absolute;
+    left: 66px;
+    top: 38px;
+    border-spacing: 0px;
+    width: 266px;
+  }
+  td {
+    width: 54px;
+    height: 36px;
+  }
+  #formUse {
+    position: absolute;
+    bottom: 150px;
+    right: 60px;
+    padding: 15px;
+    background-color: #53af13;
+    border-radius: 10px;
+  }
+  #guessInput {
+    background-color: #98cf71;
+    border-color: #53af13;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    padding: 3px;
+    display: block;
+    text-align: center;
+  }
+  #fireButton {
+    background-color: #98cf71;
+    border-color: #53af13;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    padding: 7px;
+    display: block;
+    margin-left: 31px;
+    width: 145px;
+  }
+  #messageArea {
+    position: absolute;
+    top: 450px;
+    color: #53af13;
+    font-size: 25px;
+    width: 375px;
+    text-align: center;
+  }
+  #see {
+    position: absolute;
+    top: 505px;
+    color: #53af13;
+    font-size: 20px;
+    width: 375px;
+    text-align: center;
+  }
+  #messageVersion {
+    position: absolute;
+    top: 540px;
+    left: 160px;
+    color: #53af13;
+    font-size: 30px;
+    border: 1px solid #98cf71;
+    background-color: #98cf71;
+    border-radius: 10px;
+  }
+  .hit {
+    background: url("../img/min_ship.png") no-repeat center center;
+  }
+  .ship_hit {
+    background: url("../img/min_ship_hit.png") no-repeat center center;
+  }
+  .miss {
+    background: url("../img/min_miss.png") no-repeat center center;
+  }
+}

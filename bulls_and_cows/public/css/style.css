@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  background: url("../img/back_body.png") no-repeat;
+  background-size: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  position: relative;
+  padding: 5px;
+}
+.title {
+  position: absolute;
+  z-index: 4;
+  font-family: diablo;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #eb7c0d;
+  margin: 1022px 0 0 13px;
+}
+#back {
+  position: absolute;
+  z-index: 1;
+}
+#back_header {
+  position: absolute;
+  z-index: 3;
+  margin-top: 143px;
+}
+#back_bot {
+  margin-top: 704px;
+  z-index: 3;
+  position: absolute;
+}
+@font-face {
+  font-family: "diablo";
+  src: url("../fonts/diablo.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+#out {
+  position: absolute;
+  width: 733px;
+  height: 777px;
+  color: red;
+  z-index: 2;
+  opacity: 0.74;
+  margin: 282px 0 0 158px;
+  background: url("../img/out.png");
+}
+#text {
+  padding: 20px;
+  font-family: diablo;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #eb7c0d;
+}
+.text {
+  border: 2px solid #eb7c0d;
+  max-width: 250px;
+  background-color: white;
+  margin: 250px 0 0 190px;
+}
+#formUse {
+  position: absolute;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1105px 0 0 20px;
+}
+#input {
+  outline: none;
+  width: 483px;
+  height: 68px;
+  font-size: 50px;
+  text-align: center;
+  font-family: diablo;
+}
+#input_button {
+  display: inline;
+  outline: none;
+  width: 250px;
+  height: 68px;
+  margin: 10px 0 0 120px;
+  font-family: diablo;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #eb7c0d;
+}
+#input_button:hover {
+  color: black;
+}
+#input_button:active {
+  color: #eb7c0d;
+}
+#input_replay {
+  display: none;
+  outline: none;
+  width: 250px;
+  height: 68px;
+  margin: 10px 0 0 120px;
+  font-family: diablo;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #eb7c0d;
+}
+#input_replay:hover {
+  color: black;
+}
+#input_replay:active {
+  color: #eb7c0d;
+}
+#help {
+  position: absolute;
+  z-index: 2;
+  width: 353px;
+  height: 134px;
+  background: url("../img/cload.png") no-repeat;
+  margin: 10px 0 0 610px;
+}
+#help_link {
+  position: absolute;
+  font-family: diablo;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #eb7c0d;
+  padding: 30px 0 0 100px;
+  text-decoration: none;
+}
+#help_link:hover {
+  color: black;
+}
+#help_link:active {
+  color: #eb7c0d;
+}
